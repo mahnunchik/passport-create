@@ -1,7 +1,7 @@
 {
   "name": "passport-create",
   "version": "0.0.1",
-  "description": "Create a user authentication strategy for Passport and Node.js",
+  "description": "Create new user authentication strategy for Passport and Node.js",
   "main": "./lib/passport-create",
   "scripts": {
     "test": "make test"
