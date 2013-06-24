@@ -21,15 +21,14 @@
     "url": "https://github.com/mahnunchik/passport-create/issues"
   },
   "dependencies": {
+    "pkginfo": "0.2.x",
     "passport": "~0.1.17"
   },
   "devDependencies": {
     "coffee-script": "*",
-    "coffeelint": "*",
-    "mongoose": "*",
-    "mocha": "*",
-    "passport-dummy": "*",
-    "passport-local": "*",
-    "passport-twitter": "*",
+    "mocha": "*"
+  },
+  "scripts": {
+    "test": "node_modules/.bin/mocha --recursive --compilers coffee:coffee-script --reporter spec --colors"
   }
 }
