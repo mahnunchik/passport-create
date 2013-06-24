@@ -1,0 +1,35 @@
+{
+  "name": "passport-create",
+  "version": "0.0.1",
+  "description": "Create a user authentication strategy for Passport and Node.js",
+  "main": "./lib/passport-create",
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mahnunchik/passport-create.git"
+  },
+  "keywords": [
+    "passport",
+    "auth",
+    "authentication"
+  ],
+  "author": "Eugeny Vlasenko <mahnunchik@gmail.com> (http://about.me/vlasenko)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mahnunchik/passport-create/issues"
+  },
+  "dependencies": {
+    "passport": "~0.1.17"
+  },
+  "devDependencies": {
+    "coffee-script": "*",
+    "coffeelint": "*",
+    "mongoose": "*",
+    "mocha": "*",
+    "passport-dummy": "*",
+    "passport-local": "*",
+    "passport-twitter": "*",
+  }
+}
