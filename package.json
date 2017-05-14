@@ -21,8 +21,8 @@
     "url": "https://github.com/mahnunchik/passport-create/issues"
   },
   "dependencies": {
-    "pkginfo": "0.2.x",
-    "passport": "~0.1.17"
+    "pkginfo": "~0.4.0",
+    "passport": "~0.3.2"
   },
   "devDependencies": {
     "coffee-script": "*",
