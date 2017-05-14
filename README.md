@@ -1,5 +1,7 @@
 # passport-create
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/mahnunchik/passport-create.svg)](https://greenkeeper.io/)
+
 [Passport](http://passportjs.org/) strategy for creating new user if unauthenticated.
 
 This module lets you create new users on first visit. By plugging into Passport, `create` authentication 
